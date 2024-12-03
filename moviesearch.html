@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="movie.css">
+  <title> Lets Find Your Movie|Movie API App|Nick Domoah</title>
+</head>
+<body>
+  <div id="container">
+    <header class="search-header">
+      <h1 class="title">Find your film</h1>
+      <a href="./watchlist.html">My Watchlist</a>
+    </header>
+
+    <div id="search-bar">
+      <div id="search-bar-icon">
+        <img src="C:\Users\USER\Downloads\Icon.png" alt="search-icon">
+      </div>
+      <input title="input" type="text" id="input" placeholder="Lets search for movies..." />
+      <button title="search-btn" id="search-btn" type="submit">Search</button>
+    </div>
+
+    <main id="main">
+      <div id="movies">
+
+        <div class="container">
+          <h1>Featured Movies</h1>
+          <div class="movie-grid" id="movieGrid">
+              <!-- Movie items will be inserted here dynamically -->
+          </div>
+      </div>
+        
+      </div>
+    </main>
+  </div>
+  <script src="movie.js"></script>
+</body>
+</html>
